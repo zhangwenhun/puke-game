@@ -1,0 +1,106 @@
+
+ body{
+    width: 100%;
+    height: 100%;
+ 	background-image: url(img/poker.jpg);
+ 	background-size: 100%;
+ 	overflow-x:hidden;
+ }
+
+ .zhuozi{
+ 	width: 690px;
+ 	height: 580px;
+ 	position: relative; 	
+ 	margin-left: 600px;
+ 	margin-top: 10px;
+ 	background-image: url(img/zhuomian.jpg);
+ 	background-size: cover;
+ }
+ .pai{
+ 	width: 90px;
+ 	height: 120px;
+ 	position: absolute;
+ 	left: 300px;
+ 	top: 0;
+ 	background-size: 100% 100%;
+ 	opacity: 0;
+ 	cursor: pointer;
+ }
+ .chulie{
+ 	transition:all .6s ease;
+ 	transform:rotateZ(180deg);
+ }
+ .anniu-left{
+ 	width: 100px;
+ 	height: 100px;
+ 	position: absolute;
+ 	left:60%;
+ 	top: 80%;
+ 	margin-left: 0px;
+ 	border-radius: 15px;
+ 	text-align: center;
+ 	line-height: 30px;
+ 	font-size: 20px;
+ 	color: white;
+ 	cursor: pointer;
+ 	background-image: url(img/you.png);
+ 	background-size: cover;
+ }
+ .anniu-right{
+ 	width: 100px;
+ 	height: 100px;
+ 	position: absolute;
+ 	left:55%;
+ 	top: 80%;
+ 	margin-left: -100px;
+ 	border-radius: 15px;
+ 	text-align: center;
+ 	line-height: 30px;
+ 	font-size: 20px;
+ 	color: white;
+ 	cursor: pointer;
+ 	background-image: url(img/zuo.jpg);
+ 	background-size: cover;
+ }
+ .tishi{
+ 	width: 550px;
+ 	height: 100px;
+ 	background-color: #6A4A31;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	bottom: 0;
+ 	right: 0;
+ 	margin: auto;
+ 	line-height: 100px;
+ 	text-align: center;
+ 	font-size: 22px;
+ 	font-weight: 800;
+ 	display: none;
+ 	border-radius: 10px;
+
+ }
+ .tishi.show{
+ 	display: block;
+ }
+ .warning{
+ 	width: 550px;
+ 	height: 100px;
+ 	background-color: #6A4A31;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	bottom: 0;
+ 	right: 0;
+ 	margin: auto;
+ 	line-height: 100px;
+ 	text-align: center;
+ 	font-size: 22px;
+ 	font-weight: 800;
+ 	border-radius: 10px;
+ 	display: none;
+ }
+ .warning.show{
+ 	display: block;
+
+ }
